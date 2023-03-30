@@ -62,6 +62,7 @@ if __name__ == '__main__':
         
         item_size = 200
         feature_dimension = 500
+        alpha = feature_dimension/0.5  # you can change to any number
         max_length = min(item_size,feature_dimension)
          
        
@@ -115,7 +116,7 @@ if __name__ == '__main__':
             
             var_feat = np.var(selected_feat,axis = 0)
             
-            upper_bound = np.sum(np.log(var_feat+1))
+            upper_bound = np.sum(np.log(alpha*var_feat+1))
             value.append(upper_bound)
             
         # plt.figure()
