@@ -4,3 +4,5 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 ## We currently provide:
 - ``` prop1.py```: Proposition 1 for different distributions:
 'Gaussian','Uniform', 'Beta', 'Binomial','Exponential','Rayleigh','Poisson'
+
+- ```main.py```: Training for Models with neural collapse (merely pursuing diversity). The function is ```RD_DPP_diveristy```.
