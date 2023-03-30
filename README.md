@@ -3,3 +3,4 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 
 ## We currently provide:
 - Proposition 1 for different distributions:
+'Gaussian','Uniform', 'Beta', 'Binomial','Exponential','Rayleigh','Poisson'
