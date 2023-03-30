@@ -99,12 +99,6 @@ if __name__ == '__main__':
         
         
     
-    # np.linalg.det(kernel_matrix)
-    
-    
-    
-    
-    # np.random.randn(288*128,288*128).T*(np.random.randn(4,288*128))
     
     
         value = []
