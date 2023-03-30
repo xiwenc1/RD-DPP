@@ -33,7 +33,7 @@ import copy
 import random
 # from options import args_parser
 from functions_emp import train,test, \
-code_diversity_empirical,code_diversity_empirical_old,estimate_diversity_empirical,feat_empirical,dpp,image_gau_noise,train_cifar
+code_diversity_empirical,code_diversity_empirical_old,feat_empirical,dpp,image_gau_noise,train_cifar
 
 from torch.utils.data import TensorDataset
 
