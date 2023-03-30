@@ -1,8 +1,8 @@
 # RD-DPP
-The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point Process to Diversify Learning Data Samples
+The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point Process to Diversify Learning Data Samples.
 
 ## We currently provide:
-- ``` prop1.py```: Proposition 1 for different distributions:
+- ```prop1.py```: Proposition 1 for different distributions:
 'Gaussian', 'Uniform', 'Beta', 'Binomial', 'Exponential', 'Rayleigh', 'Poisson'.
 
 - ```main.py```: Training for EfficientNet with **neural collapse** (merely pursuing diversity). The function is ```RD_DPP_diveristy```.
