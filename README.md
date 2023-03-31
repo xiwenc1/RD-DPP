@@ -5,8 +5,8 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 - ```prop1.py```: Proposition 1 for different distributions:
 'Gaussian', 'Uniform', 'Beta', 'Binomial', 'Exponential', 'Rayleigh', 'Poisson'.
 
--```main_small.py```: Training logistic regression on small datasets.
-
+- ```main_small.py```: Training logistic regression on small datasets.
+- ```main_mnist.py```: Training 3 layer CNN on MNIST.
 - ```main_cifar.py```: Training for EfficientNet with **neural collapse**. The function is ```RD_DPP_diveristy```.
 - ```code_diversity_empirical_old``` is the function to obtain ```sdiv(x)``` with boostrapping.
 
