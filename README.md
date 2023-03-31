@@ -7,7 +7,7 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 
 - ```main_small.py```: Training logistic regression on small datasets.
 - ```main_mnist.py```: Training 3 layer CNN on MNIST.
-- ```main_cifar.py```: Training for EfficientNet with **neural collapse**. The function is ```RD_DPP_diveristy```.
+- ```main_cifar.py```: Training for EfficientNet with **neural collapse**. 
 - ```code_diversity_empirical_old``` is the function to obtain ```sdiv(x)``` with boostrapping.
 
 ## results:
