@@ -10,7 +10,7 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 
 
 ## show results:
-- ```show_results_mnist.ipynb```. Some results are ```inexp2_MNIST```.
+- ```show_results_mnist.ipynb```. Some results are in ```exp2_MNIST```.
 - ```show_results_small.ipynb```. Some results are in ```exp_small_dataset```.
 - ```show_results_cifar.ipynb```. Some results are in ```EfficientNet/exp_10_2```.
 
