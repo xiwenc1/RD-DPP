@@ -6,7 +6,7 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 'Gaussian', 'Uniform', 'Beta', 'Binomial', 'Exponential', 'Rayleigh', 'Poisson'.
 - ```main_mnist.py```: Train 3 layer CNN on MNIST.
 - ```main_small.py```: Train logistic regression on small datasets.
-- ```main_cifar.py```: Train for EfficientNet with **neural collapse**. 
+- ```main_cifar.py```: Train for EfficientNet on CIFAR10. 
 
 
 ## show results:
