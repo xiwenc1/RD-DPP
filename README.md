@@ -4,26 +4,28 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 ## We currently provide:
 - ```prop1.py```: Proposition 1 for different distributions:
 'Gaussian', 'Uniform', 'Beta', 'Binomial', 'Exponential', 'Rayleigh', 'Poisson'.
-
-- ```main_small.py```: Training logistic regression on small datasets.
 - ```main_mnist.py```: Training 3 layer CNN on MNIST.
+- ```main_small.py```: Training logistic regression on small datasets.
 - ```main_cifar.py```: Training for EfficientNet with **neural collapse**. 
-- ```code_diversity_empirical_old``` is the function to obtain ```sdiv(x)``` with boostrapping.
 
-## results:
-- semantic diversity is stored as  ```div_{run_index}.npy```
-- other results ```{args.dataset_name}_{run_index}.npy```
-- ``` show_results_cifar.ipynb``` is used to summary and plot the results
-- Some results are in ```EfficientNet/exp_10_2```.
 
-### Some results as well as the ```sdiv``` on CIFAR10
+## show results:
+- ```show_results_mnist.ipynb```. Some results are ```inexp2_MNIST```.
+- ```show_results_small.ipynb```. Some results are in ```exp_small_dataset```.
+- ```show_results_cifar.ipynb```. Some results are in ```EfficientNet/exp_10_2```.
+
+
+### Some results on MNIST
+<div align="center">
+	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/MNIST_clean.png" alt="Editor" width="300">
+</div>
+
+### Some results on CIFAR10
 
 <div align="center">
 	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/EfficientNet_CIFAR10_10.png" alt="Editor" width="300">
 </div>
-<div align="center">
-	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/div_EfficientNet.png" alt="Editor" width="300">
-</div>
+
 
 
 
