@@ -16,19 +16,19 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 
 
 ## Exemplary Results
-### Proposition 1 for different distribution
+### Proposition 1 for different distribution (Please View ```view_phase.jpg``` in case the image disappears sometimes. )
 
 <div align="center">
 	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/view_phase.jpg" alt="Editor" width="800">
 </div>
 
 
-### Some results on MNIST
+### Some results on MNIST (Please View ```MNIST_clean.png```)
 <div align="center">
 	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/MNIST_clean.png" alt="Editor" width="300">
 </div>
 
-### Some results on CIFAR10
+### Some results on CIFAR10 (Please View ```EfficientNet_CIFAR10_10.png```)
 
 <div align="center">
 	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/EfficientNet_CIFAR10_10.png" alt="Editor" width="300">
