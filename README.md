@@ -17,6 +17,8 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 
 ## Exemplary Results
 ### Proposition 1 for different distribution
+![](https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/view_phase.jpg)
+
 <div align="center">
 	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/view_phase.jpg" alt="Editor" width="800">
 </div>
