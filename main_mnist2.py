@@ -727,7 +727,7 @@ if __name__ == '__main__':
         
         
         
-        def RD_DPP_two_stage(eval_period,bordline):
+        def RD_DPP_bimodal(eval_period,bordline):
             acc_base_list = np.zeros((Total_budget,2,EPOCH))
             dataset_base_X = dataset_gt_X_temp
             dataset_base_Y = dataset_gt_Y_temp
@@ -906,8 +906,8 @@ if __name__ == '__main__':
             acc_dpp_list,acc_test_dpp =[],[]
             acc_dpp_list_old,acc_test_dpp_old =RD_DPP_diveristy(eval_period)
             
-            acc_a1_list,acc_test_a1,Status_list1 =RD_DPP_two_stage(eval_period,1)
-            acc_a2_list,acc_test_a2,Status_list2 =RD_DPP_two_stage(eval_period,2)
+            acc_a1_list,acc_test_a1,Status_list1 =RD_DPP_bimodal(eval_period,1)
+            acc_a2_list,acc_test_a2,Status_list2 =RD_DPP_bimodal(eval_period,2)
             
             
             acc_entropy_list_all.append(acc_entropy_list)

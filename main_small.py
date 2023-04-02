@@ -603,7 +603,7 @@ for run_index in range(args.repeat):
     
     
     
-    def RD_DPP_two_stage(eval_period,bordline,uncertain='minmargin'):
+    def RD_DPP_bimodal(eval_period,bordline,uncertain='minmargin'):
         acc_base_list = np.zeros((Total_budget,2,EPOCH))
         dataset_base_X = dataset_gt_X_temp
         dataset_base_Y = dataset_gt_Y_temp
@@ -787,8 +787,8 @@ for run_index in range(args.repeat):
         # acc_dpp_list,acc_test_dpp =pick_by_rate_dpp(eval_period)
         acc_dpp_list_old,acc_test_dpp_old,dpp_index =RD_DPP_diveristy(eval_period)
         
-        acc_a1_list,acc_test_a1,Status_list1,a1_index =RD_DPP_two_stage(eval_period,0.1,Swith)
-        acc_a2_list,acc_test_a2,Status_list2,a2_index =RD_DPP_two_stage(eval_period,0.05,Swith)
+        acc_a1_list,acc_test_a1,Status_list1,a1_index =RD_DPP_bimodal(eval_period,0.1,Swith)
+        acc_a2_list,acc_test_a2,Status_list2,a2_index =RD_DPP_bimodal(eval_period,0.05,Swith)
         
         
         # acc_entropy_list_all.append(acc_entropy_list)
