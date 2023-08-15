@@ -31,7 +31,7 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 ### Some results on CIFAR10 (Please View ```EfficientNet_CIFAR10_10.png```)
 
 <div align="center">
-	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/EfficientNet_CIFAR10_10.png" alt="Editor" width="300">
+	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/threenet_crop_2.pdf" alt="Editor" width="300">
 </div>
 
 
