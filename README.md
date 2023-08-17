@@ -12,7 +12,7 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 ## show results:
 - ```show_results_mnist.ipynb```. Some results are in ```exp2_MNIST```.
 - ```show_results_small.ipynb```. Some results are in ```exp_small_dataset```.
-- ```show_results_cifar2.ipynb```. Some results are in ```EfficientNet/exp_10_2```.
+- ```show_results_cifar2.ipynb```. Some results are in ```exp_up_10_efficientnet```.
 
 
 ## Exemplary Results
@@ -32,7 +32,7 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 
 
 
-#### Models are modified from: https://github.com/kuangliu/pytorch-cifar. Thanks!
-
+#### DL Models are modified from: https://github.com/kuangliu/pytorch-cifar. Thanks!
+#### K-center coreset is from: https://github.com/google/active-learning/tree/master. Thanks!
 
 
