@@ -22,10 +22,10 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/view_phase.jpg" alt="Editor" width="800">
 </div>
 
-### Some results on CIFAR10 (Please View ```EfficientNet_CIFAR10_10.png```)
+### Some results on CIFAR10 (Please View ```threenet_result.png.png```)
 
 <div align="center">
-	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/threenet_result.pdf" alt="Editor" width="800">
+	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/threenet_result.png" alt="Editor" width="800">
 </div>
 
 
