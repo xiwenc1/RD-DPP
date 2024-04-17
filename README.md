@@ -15,12 +15,6 @@ The code for the paper: RD-DPP: Rate-Distortion Theory meets Determinantal Point
 - ```show_results_cifar2.ipynb```. Some results are in ```exp_up_10_efficientnet```.
 
 
-## Exemplary Results
-### Proposition 1 for different distribution (Please View ```view_phase.jpg``` in case the image disappears sometimes. )
-
-<div align="center">
-	<img src="https://github.com/XiwenChen-Clemson/RD-DPP/blob/main/view_phase.jpg" alt="Editor" width="800">
-</div>
 
 ### Some results on CIFAR10 (Please View ```threenet_result.png.png```)
 
